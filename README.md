@@ -1,6 +1,13 @@
 # steam-for-linux_wifi-startup-fix
 A simple fix for the issue with Steam on linux starting the wifi on startup.
 
+*DISCLAIMER*
+
+
+I assume no responsibility for issues relating to this code. It doesn't do anything that could cause problems, but it's better to cover my bases.
+
+This was tested on Ubuntu 14.04 x64. I am assuming the <code>iwconfig</code> command is native to other distributions. I am also assuming that <code>iwconfig | grep -cim1 Tx-Power=off</code> will correctly report wifi status on other distributions. If anyone has a better solution for checking if the wifi is on, please notify me.
+
 *DESCRIPTION*
 
 
