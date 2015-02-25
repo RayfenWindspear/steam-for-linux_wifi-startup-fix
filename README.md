@@ -19,6 +19,8 @@ Simply put, this script checks your wifi status before Steam starts and if it wa
 
 The way I install this is to directly edit the script <code>/usr/bin/steam</code> and add the lines in as noted in the script comments. For readability, I will briefly explain here. Add the first portion of the script to the top of <code>/usr/bin/steam</code> just below the top line (#!...). Add the second portion of the script to the very bottom. You're done!
 
+Please note that with this install method, updates made by the Steam client may overwrite <code>/usr/bin/steam</code> in the process. As such, this would need to be applied again.
+
 *CREDITS*
 
 
