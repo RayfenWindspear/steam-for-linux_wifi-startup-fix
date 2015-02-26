@@ -1,5 +1,5 @@
 # steam-for-linux_wifi-startup-fix
-A simple fix for the issue with Steam on linux starting the wifi on startup.
+A simple fix for the issue with Steam on linux starting the wifi on startup. For https://github.com/ValveSoftware/steam-for-linux/issues/3424
 
 ***DISCLAIMER***
 
