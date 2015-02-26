@@ -1,6 +1,13 @@
 # steam-for-linux_wifi-startup-fix
 A simple fix for the issue with Steam on linux starting the wifi on startup. For https://github.com/ValveSoftware/steam-for-linux/issues/3424
 
+***BEFORE READING ON***
+
+
+A much more elegant solution was posted after mine by AnAkIn1 here: https://github.com/ValveSoftware/steam-for-linux/issues/3424#issuecomment-76155772
+
+This solution prevents Steam from modifying the network status at all. This repo will be left intact for archival purposes as I am personally using this same process to prevent my laptop from bringing wifi and bluetooth online after waking from sleep.
+
 
 ***DISCLAIMER***
 
